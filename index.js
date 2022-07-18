@@ -8,7 +8,7 @@ require("dotenv").config();
 let rawdata = fs.readFileSync("province.json");
 let provinces = JSON.parse(rawdata);
 
-const token = process.env.TOKEN_TELEGRAM;
+const token ='5426128319:AAGTv1AmUlxypDnGCXyuG6hA1VtHsazVAI8'
 
 const bot = new Telegraf(token);
 
